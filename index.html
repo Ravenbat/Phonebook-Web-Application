@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src=myScript.js></script>
+    <head>
+        <title>Phonebook</title>
+    </head>
+    <body>
+    <form action="javascript:;" onsubmit="myFunction()">
+        <div id="divname">
+        <label for="fname">First name: <input type="text" id="name1" required>
+        </div>
+        <div id="divsurname">
+        <label for="lname">Last name:</label> <input type="text" id="surname" required>
+        </div><br><br>
+        <div id="divphonenumber">
+        <label for="phonenum">Phone Number: </label><input type="text" id="phonenumber" required>
+        </div>
+        <div id="divaddress">
+        <label for="address">Address:</label> <input type="text" id="address">
+        <Label id="myLabel">Search Contacts: </Label><input id="myInput" type="text" placeholder="">
+        </div><br><br><br>
+        <div id="button">
+        <input type="submit" value="Add Contact">
+        </div>
+    </form>
+    
+    <table id="headings">
+        <thead>
+            <tr>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Phone Number</th>
+              <th>Address</th>
+            </tr>
+            </thead>
+    </table>
+    <table id="myTable">
+            <tbody id="myTableBody">    
+      </table>
+      
+    </body>
+</html>

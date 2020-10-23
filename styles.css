@@ -1,0 +1,72 @@
+.h1 {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body {
+    background-color: #DFFA70;
+}
+form {
+    background-color: lightgoldenrodyellow;
+    width:89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#divname, #divsurname, #divphonenumber{
+    margin-left: 100px;
+    display: inline;
+    font-family: arial, sans-serif;
+}
+#divaddress {
+    display:inline;
+    font-family: arial, sans-serif;
+    margin-left: 145px;
+}
+#name {
+    width: 150px;
+}
+#phonenumber {
+    width:93px;
+}
+#button {
+    margin-left: 320px;
+}
+table{
+    margin-left: 105px;
+    margin-right: auto;
+    border-collapse: seperate;
+    border-spacing:0px 15px;
+}
+td, th{
+    border:1px solid gray;
+    padding:5px 10px;
+    width:400px;
+    text-align:center;
+}
+
+#headings{
+    font-family:arial, sans-serif;
+}
+#myLabel {
+    position: relative;
+    margin-left: 300px;
+}
+#delete {
+    width: 5%;
+}
+.deleteButton {
+    background-color: lightblue;
+    width:90px;
+}
+#myTable {
+    background-color: lightblue;
+    font-family: 'Lucida Sans Unicode', sans-serif
+}
+#headings {
+    background-color: white;
+}
